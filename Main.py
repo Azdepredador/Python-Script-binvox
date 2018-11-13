@@ -9,7 +9,7 @@ def runShell(obj):
     
 
 if __name__ == "__main__":
-    for f in glob.glob("* "):
+    for f in glob.glob("*obj"):
         print(f)  
    # runShell("lab ")
     
