@@ -15,5 +15,4 @@ def readBinvox(binvox):
 if __name__ == "__main__":
     for f in glob.glob("*.binvox"):  
         readBinvox(f)  
-      
     pass
